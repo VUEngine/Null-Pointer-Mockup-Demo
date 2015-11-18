@@ -31,9 +31,9 @@
 #ifdef __DEBUG
 #define __PRINT_FRAMERATE
 #define __PRINT_MEMORY_POOL_STATUS
-//#define __DEBUG_TOOLS
-//#define __STAGE_EDITOR
-//#define __ANIMATION_EDITOR
+#define __DEBUG_TOOLS
+#define __STAGE_EDITOR
+#define __ANIMATION_EDITOR
 //#define __ALERT_STACK_OVERFLOW
 #endif
 

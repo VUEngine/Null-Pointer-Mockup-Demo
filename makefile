@@ -29,7 +29,7 @@ GAME_ESSENTIALS = 	-include $(VBJANEGINE_CONFIG_FILE) \
 ifeq ($(TYPE),debug)
 LDPARAM = -fno-builtin -ffreestanding -T$(VBJAENGINE)/lib/compiler/extra/vb.ld -L/opt/gccvb/v810/lib/ -L/opt/gccvb/v810/include/ -lm -lvbjae
 CCPARAM = -fno-builtin -ffreestanding -nodefaultlibs -mv810 -O0 -Wall $(GAME_ESSENTIALS)
-MACROS = __DEBUG __DEBUG_TOOLS __STAGE_EDITOR __ANIMATION_EDITOR
+MACROS = __DEBUG
 endif
 
 ifeq ($(TYPE), release)
